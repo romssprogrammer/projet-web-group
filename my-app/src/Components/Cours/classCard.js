@@ -4,6 +4,7 @@
 import styles from "./classCard.module.css"
 
 
+
 const ClassCard= (props)=>{
     //Destructuration de props
     //const transfimage = "transform scale-75"
@@ -12,18 +13,23 @@ const ClassCard= (props)=>{
     const {titre,enseignement,image,nomProfesseur,couleur,imgSize} = props
     return(
         
+       
+
+
+        
+        
          
-        <div >
+        <div onMouseEnter >
            <div className=   {couleur}>
-            <h1 className= "text-center ">{titre}</h1>
 
            
             <img className src={image} alt=""/>
             <div class="font-bold text-xl mb-2"> 
-            <p>{enseignement}</p>
+            <h1 className= "text-center ">{titre}</h1>
+            
             </div>
-            <p>{enseignement}</p>
-            <p>{nomProfesseur}</p>
+            <p className = "text-center " >Professeur : {nomProfesseur}</p>
+            <p className= "text-center ">{enseignement}</p>
             
 
 
@@ -35,7 +41,7 @@ const ClassCard= (props)=>{
         </div>
 
 
-       
+        
     )
     
 }
