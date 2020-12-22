@@ -1,5 +1,9 @@
 .classCard img{
-    width: 500px;
+    width: 100px;
+    height: 150px;
+    display: inline;
+    
+    
 }
 
 .ClassCard p{
