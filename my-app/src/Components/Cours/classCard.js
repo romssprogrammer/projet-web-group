@@ -13,14 +13,8 @@ const ClassCard= (props)=>{
     const {titre,enseignement,image,nomProfesseur,couleur,imgSize} = props
     return(
         
-       
-
-
-        
-        
-         
         <div>
-           <div className=   {couleur}>
+           <div className=   {couleur+"rounded-lg"}>
 
            
             <img className src={image} alt=""/>
