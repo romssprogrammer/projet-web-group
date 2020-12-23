@@ -19,7 +19,7 @@ const ClassCard= (props)=>{
         
         
          
-        <div onMouseEnter >
+        <div>
            <div className=   {couleur}>
 
            
@@ -28,11 +28,9 @@ const ClassCard= (props)=>{
             <h1 className= "text-center ">{titre}</h1>
             
             </div>
-            <p className = "text-center " >Professeur : {nomProfesseur}</p>
+            <p className = "font-bold mb-2 text-center"  >Professeur : {nomProfesseur}</p>
             <p className= "text-center ">{enseignement}</p>
             
-
-
             </div> 
             
             
