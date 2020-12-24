@@ -14,10 +14,10 @@ const ClassCard= (props)=>{
     
     return(
         
-        <div className = {styles.pictureCard + " max-w-md m-50 overflow-ellipsis overflow-hidden"}>
+        <div className = {styles.pictureCard + styles.ClassCard +" max-w-md m-50 overflow-ellipsis overflow-hidden"}>
            <div className= {couleur}>
 
-            <img className ="transform scale-75 h-60 mx-auto  " src={image} alt=""/>
+            <img className ="transform scale-75 h-60 mx-auto" src={image} alt=""/>
             <div className="font-bold text-xl mb-2"> 
             <h1 className= "text-center ">{titre}</h1>
            
